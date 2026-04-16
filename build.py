@@ -38,6 +38,7 @@ def build_guest_page(gid, g):
 
     bio_short = esc(bio[:160]) + '\u2026' if len(bio) > 160 else esc(bio)
     topics_li = '\n'.join(f'          <li>{esc(t)}</li>' for t in topics)
+    bio_html = f'<p class="guest-bio">{esc(bio)}</p>' if bio else ''
     
     job_title = title.split(',')[0].split('&')[0].strip()
 
@@ -85,6 +86,8 @@ def build_guest_page(gid, g):
         <div class="guest-speaker-label">Guest Speaker</div>
         <h1 class="guest-name">{esc(name)}</h1>
         <div class="guest-title-firm">{esc(title)}, {esc(firm)}</div>
+
+        {bio_html}
 
         <div class="topics-label">Topics covered on Cool Vector:</div>
         <ul class="topics-list">
