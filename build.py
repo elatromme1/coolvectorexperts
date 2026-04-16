@@ -12,12 +12,6 @@ LOGO_HTML_GUEST = """    <div class="site-logo-wrap">
       </a>
     </div>"""
 
-LOGO_HTML_INDEX = """    <div class="site-logo-wrap">
-      <a href="https://coolvector.substack.com/" target="_blank" rel="noopener">
-        <img src="images/cool-vector-logo.png" alt="Cool Vector" class="site-logo" />
-      </a>
-    </div>"""
-
 SEARCH_JS = """
 <script>
   const searchInput = document.getElementById('guest-search');
@@ -61,8 +55,8 @@ ABOUT_SECTION = """<div class="about-section">
   <h3>About Cool Vector</h3>
   <p>Cool Vector is a video-podcast about the rise of data centers and the digital infrastructure asset class. On a regular basis, the podcast convenes expert conversations about the investment opportunities and macro themes driving the build-out of digital infrastructure, including private capital dynamics, performance expectations, energy demand, geopolitical influences, sustainability opportunities, development and construction, technology and community impact.</p>
   <p>Cool Vector is hosted by financial journalist David Snow, a long-time chronicler of the alternative investment market, as well as editorial advisors Phillip Koblence and Nabeel Mahmood, data center industry veterans and co-founders of the Nomad Futurist Foundation.</p>
-  <div class="subscribe-embed">
-    <iframe src="https://coolvector.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="substack-embed-wrap">
+    <iframe src="https://coolvector.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
   </div>
 </div>"""
 
@@ -198,13 +192,13 @@ def build_index(guests_list):
   </script>
 </head>
 <body>
+
+  <div class="hero-banner">
+    <a href="https://coolvector.substack.com/" target="_blank" rel="noopener" class="hero-link" aria-label="Visit Cool Vector on Substack"></a>
+    <img src="images/hero-bg.png" alt="Cool Vector - Directory of Experts. Primary-source commentary about data centers and the digital infrastructure asset class." class="hero-img" />
+  </div>
+
   <div class="site-wrapper">
-    <div class="index-header">
-{LOGO_HTML_INDEX}
-      <div class="index-tagline">{TAGLINE}</div>
-      <h1>Directory of Experts</h1>
-      <p class="index-subtitle">Search for people, firms and topics to have appeared on the Cool Vector video-podcast</p>
-    </div>
 
     <div class="search-wrap">
       <input
