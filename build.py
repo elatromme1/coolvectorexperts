@@ -61,10 +61,9 @@ ABOUT_SECTION = """<div class="about-section">
   <h3>About Cool Vector</h3>
   <p>Cool Vector is a video-podcast about the rise of data centers and the digital infrastructure asset class. On a regular basis, the podcast convenes expert conversations about the investment opportunities and macro themes driving the build-out of digital infrastructure, including private capital dynamics, performance expectations, energy demand, geopolitical influences, sustainability opportunities, development and construction, technology and community impact.</p>
   <p>Cool Vector is hosted by financial journalist David Snow, a long-time chronicler of the alternative investment market, as well as editorial advisors Phillip Koblence and Nabeel Mahmood, data center industry veterans and co-founders of the Nomad Futurist Foundation.</p>
-  <form class="subscribe-form" action="https://coolvector.substack.com/subscribe" method="get" target="_blank">
-    <input type="email" name="email" placeholder="Enter your email address" />
-    <button type="submit">Subscribe</button>
-  </form>
+  <div class="subscribe-embed">
+    <iframe src="https://coolvector.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </div>
 </div>"""
 
 def build_guest_page(gid, g):
