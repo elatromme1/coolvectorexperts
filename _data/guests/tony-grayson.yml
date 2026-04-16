@@ -1,18 +1,13 @@
 name: Tony Grayson
 title: President & General Manager
 firm: Northstar Enterprise & Defense
-bio: Tony Grayson is former President of Compass Datacenters and now President & General
-  Manager of Northstar Enterprise & Defense, a modular data center firm. A former
-  US Navy submarine commander, he brings a mission-critical perspective to edge data
-  centers and sees agentic AI as a key driver of modular data center demand. He argues
-  that the real money in digital infrastructure will be made in distributed, latency-sensitive
-  inference infrastructure.
+bio: Tony Grayson is former President of Compass Datacenters and now President & General Manager of Northstar Enterprise & Defense, a modular data center firm. A former US Navy submarine commander, he brings a mission-critical perspective to the debate over mega vs. distributed data centers. He argues that the era of the mega data center as the default build thesis is running headlong into hardware reality — chip-set obsolescence, paper demand, and inflated capacity announcements — while the real opportunity lies in distributed, latency-sensitive inference infrastructure close to the edge.
 topics:
-- Modular data centers
-- Edge computing
-- Agentic AI
-- Defense infrastructure
-- Distributed compute
-episodeTitle: The Modular Future of Data Centers is Coming to a Parking Lot Near You
-episodeUrl: https://coolvector.substack.com/p/the-modular-future-of-data-centers
-episodeDate: '2025-10-01'
+  - "Modular vs. mega data center build thesis"
+  - "Edge computing and inference infrastructure"
+  - "AI chip obsolescence and capital risk"
+  - "Defense infrastructure and distributed compute"
+  - "Agentic AI and latency-sensitive workloads"
+episodeTitle: "'The Use Cases are There, the Infrastructure is Not'"
+episodeUrl: "https://coolvector.substack.com/p/the-use-cases-are-there-the-infrastructure"
+episodeDate: '2026-04-13'
