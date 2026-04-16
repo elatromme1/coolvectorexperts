@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: elatromme1/coolvectorexperts
+  branch: main
+
+media_folder: "images"
+public_folder: "../images"
+
+collections:
+  - name: "guests"
+    label: "Guests"
+    label_singular: "Guest"
+    folder: "_data/guests"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    extension: yml
+    format: yaml
+    fields:
+      - { label: "Full Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Firm / Organization", name: "firm", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - label: "Topics Covered"
+        name: "topics"
+        widget: "list"
+        field: { label: "Topic", name: topic, widget: string }
+      - { label: "Episode Title", name: "episodeTitle", widget: "string" }
+      - { label: "Episode URL", name: "episodeUrl", widget: "string" }
+      - { label: "Episode Date", name: "episodeDate", widget: "date", required: false }
+      - label: "Headshot"
+        name: "headshot"
+        widget: "image"
+        required: false
+        hint: "Upload a square headshot photo"
