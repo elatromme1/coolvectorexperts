@@ -4,7 +4,7 @@ import os, yaml, html as html_module
 from pathlib import Path
 
 SITE_URL = "https://coolvectorexperts.netlify.app"
-TAGLINE = "Primary-source intel about data centers and the digital infrastructure asset class"
+TAGLINE = "Primary-source commentary about data centers and the digital infrastructure asset class"
 
 LOGO_HTML_GUEST = """    <div class="site-logo-wrap">
       <a href="https://coolvector.substack.com/" target="_blank" rel="noopener">
@@ -118,7 +118,7 @@ def build_guest_page(gid, g):
 
 {LOGO_HTML_GUEST}
 
-    <a class="back-link" href="../index.html">← Back to all guests</a>
+    <a class="back-link" href="../index.html">&larr; Back to all guests</a>
 
     <div class="guest-header">
       <img class="guest-photo" src="../images/{gid}.jpg" alt="Photo of {esc(name)}" />
@@ -141,7 +141,7 @@ def build_guest_page(gid, g):
       </div>
     </div>
 
-    <a class="back-link-bottom" href="../index.html">← Back to all guests</a>
+    <a class="back-link-bottom" href="../index.html">&larr; Back to all guests</a>
 
     {ABOUT_SECTION}
 
@@ -188,7 +188,7 @@ def build_index(guests_list):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cool Vector | Expert Guest Directory</title>
+  <title>Cool Vector | Directory of Experts</title>
   <meta name="description" content="Meet the experts who have appeared on Cool Vector, the video-podcast about data centers and digital infrastructure.">
   <link rel="stylesheet" href="style.css">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -202,8 +202,9 @@ def build_index(guests_list):
   <div class="site-wrapper">
     <div class="index-header">
 {LOGO_HTML_INDEX}
-      <div class="podcast-tagline">{TAGLINE}</div>
-      <h1>Expert Guest Directory</h1>
+      <div class="index-tagline">{TAGLINE}</div>
+      <h1>Directory of Experts</h1>
+      <p class="index-subtitle">Search for people, firms and topics to have appeared on the Cool Vector video-podcast</p>
     </div>
 
     <div class="search-wrap">
