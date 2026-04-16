@@ -18,6 +18,33 @@ LOGO_HTML_INDEX = """    <div class="site-logo-wrap">
       </a>
     </div>"""
 
+SEARCH_JS = """
+<script>
+  const searchInput = document.getElementById('guest-search');
+  const cards = Array.from(document.querySelectorAll('.guest-card'));
+  const noResults = document.getElementById('no-results');
+
+  searchInput.addEventListener('input', function() {
+    const q = this.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(function(card) {
+      const text = card.getAttribute('data-search');
+      const match = !q || text.includes(q);
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  });
+
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      this.value = '';
+      this.dispatchEvent(new Event('input'));
+    }
+  });
+</script>
+"""
+
 def esc(s):
     return html_module.escape(str(s or ''), quote=True)
 
@@ -52,7 +79,7 @@ def build_guest_page(gid, g):
     bio_short = esc(bio[:160]) + '\u2026' if len(bio) > 160 else esc(bio)
     topics_li = '\n'.join(f'          <li>{esc(t)}</li>' for t in topics)
     bio_html = f'<p class="guest-bio">{esc(bio)}</p>' if bio else ''
-    
+
     job_title = title.split(',')[0].split('&')[0].strip()
 
     page = f"""<!DOCTYPE html>
@@ -127,13 +154,26 @@ def json_str(s):
     import json
     return json.dumps(s)
 
+def build_search_data(g):
+    """Build lowercase searchable string from all guest fields."""
+    parts = [
+        g.get('name', ''),
+        g.get('title', ''),
+        g.get('firm', ''),
+        g.get('bio', ''),
+        g.get('episodeTitle', ''),
+    ]
+    parts += g.get('topics', [])
+    return ' '.join(str(p) for p in parts).lower()
+
 def build_index(guests_list):
     cards = []
     for gid, g in guests_list:
         name = g.get('name', '')
         title = g.get('title', '')
         firm = g.get('firm', '')
-        cards.append(f"""    <a class="guest-card" href="guests/{gid}.html">
+        search_data = build_search_data(g)
+        cards.append(f"""    <a class="guest-card" href="guests/{gid}.html" data-search="{esc(search_data)}">
       <img src="images/{gid}.jpg" alt="{esc(name)}" />
       <div class="card-info">
         <div class="card-name">{esc(name)}</div>
@@ -153,7 +193,6 @@ def build_index(guests_list):
   <link rel="stylesheet" href="style.css">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script>
-    // Redirect Netlify Identity tokens (invite/recovery) to /admin so the widget can process them
     if (window.location.hash && (window.location.hash.includes('invite_token') || window.location.hash.includes('recovery_token'))) {{
       window.location = '/admin/' + window.location.hash;
     }}
@@ -166,11 +205,26 @@ def build_index(guests_list):
       <div class="podcast-tagline">{TAGLINE}</div>
       <h1>Expert Guest Directory</h1>
     </div>
-    <div class="guest-grid">
+
+    <div class="search-wrap">
+      <input
+        type="search"
+        id="guest-search"
+        class="guest-search"
+        placeholder="Search by name, firm, topic, keyword&hellip;"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+
+    <div class="guest-grid" id="guest-grid">
 {cards_html}
     </div>
+    <p id="no-results" class="no-results" style="display:none;">No guests match your search.</p>
+
     {ABOUT_SECTION}
   </div>
+{SEARCH_JS}
 </body>
 </html>"""
 
