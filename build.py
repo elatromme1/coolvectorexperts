@@ -36,7 +36,7 @@ def build_guest_page(gid, g):
     ep_title = g.get('episodeTitle', '')
     ep_url = g.get('episodeUrl', '')
 
-    bio_short = esc(bio[:160]) + '…' if len(bio) > 160 else esc(bio)
+    bio_short = esc(bio[:160]) + '\u2026' if len(bio) > 160 else esc(bio)
     topics_li = '\n'.join(f'          <li>{esc(t)}</li>' for t in topics)
     
     job_title = title.split(',')[0].split('&')[0].strip()
@@ -133,6 +133,13 @@ def build_index(guests_list):
   <title>Cool Vector | Expert Guest Directory</title>
   <meta name="description" content="Meet the experts who have appeared on Cool Vector, the video-podcast about data centers and digital infrastructure.">
   <link rel="stylesheet" href="style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    // Redirect Netlify Identity tokens (invite/recovery) to /admin so the widget can process them
+    if (window.location.hash && (window.location.hash.includes('invite_token') || window.location.hash.includes('recovery_token'))) {{
+      window.location = '/admin/' + window.location.hash;
+    }}
+  </script>
 </head>
 <body>
   <div class="site-wrapper">
