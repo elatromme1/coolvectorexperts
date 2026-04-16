@@ -4,6 +4,19 @@ import os, yaml, html as html_module
 from pathlib import Path
 
 SITE_URL = "https://coolvectorexperts.netlify.app"
+TAGLINE = "Primary-source intel about data centers and the digital infrastructure asset class"
+
+LOGO_HTML_GUEST = """    <div class="site-logo-wrap">
+      <a href="https://coolvector.substack.com/" target="_blank" rel="noopener">
+        <img src="../images/cool-vector-logo.png" alt="Cool Vector" class="site-logo" />
+      </a>
+    </div>"""
+
+LOGO_HTML_INDEX = """    <div class="site-logo-wrap">
+      <a href="https://coolvector.substack.com/" target="_blank" rel="noopener">
+        <img src="images/cool-vector-logo.png" alt="Cool Vector" class="site-logo" />
+      </a>
+    </div>"""
 
 def esc(s):
     return html_module.escape(str(s or ''), quote=True)
@@ -76,13 +89,15 @@ def build_guest_page(gid, g):
 <body>
   <div class="site-wrapper">
 
+{LOGO_HTML_GUEST}
+
     <a class="back-link" href="../index.html">← Back to all guests</a>
 
     <div class="guest-header">
       <img class="guest-photo" src="../images/{gid}.jpg" alt="Photo of {esc(name)}" />
       <div class="guest-meta">
         <div class="podcast-label">Cool Vector Video-Podcast</div>
-        <div class="podcast-tagline">Charting the rise of data centers and the digital infrastructure asset class</div>
+        <div class="podcast-tagline">{TAGLINE}</div>
         <div class="guest-speaker-label">Guest Speaker</div>
         <h1 class="guest-name">{esc(name)}</h1>
         <div class="guest-title-firm">{esc(title)}, {esc(firm)}</div>
@@ -147,8 +162,8 @@ def build_index(guests_list):
 <body>
   <div class="site-wrapper">
     <div class="index-header">
-      <div class="podcast-label">Cool Vector Video-Podcast</div>
-      <div class="podcast-tagline">Charting the rise of data centers and the digital infrastructure asset class</div>
+{LOGO_HTML_INDEX}
+      <div class="podcast-tagline">{TAGLINE}</div>
       <h1>Expert Guest Directory</h1>
     </div>
     <div class="guest-grid">
