@@ -1,18 +1,21 @@
 name: Mark McComiskey
-title: Partner
-firm: AVAIO Capital
-bio: Mark McComiskey is a Partner at AVAIO Capital, a digital infrastructure and energy
-  transition investment firm. AVAIO focuses on ground-up development in unconventional
-  locations using a 'just-in-time' capital model, deploying capital incrementally
-  as projects pass key milestones. McComiskey argues the best returns come from building
-  infrastructure where it doesn't already exist, embracing complexity around power
-  procurement and permitting.
+title: Co-Founder & CEO
+firm: AVAIO Digital
+bio: Mark McComiskey is Co-Founder and CEO of AVAIO Digital, a data center developer
+  that secured land, power, and utility entitlements before the AI wave drove scarcity.
+  With a background in power infrastructure — building power plants and transmission
+  lines — McComiskey argues that real grid access is the defining differentiator in
+  data center development, and that most market claims about imminent gigawatt capacity
+  are simply not credible. AVAIO has five campuses across North America and Europe
+  with over 500 megawatts available in 2027, positioning the firm squarely in the
+  current supply gap.
 topics:
-- Data center development
-- Just-in-time capital
-- Greenfield development
-- Unconventional markets
-- Power procurement
-episodeTitle: How AVAIO Builds Data Centers with 'Just-in-Time' Capital
+- Power access and grid constraints
+- Just-in-time capital deployment
+- Greenfield site development
+- Behind-the-meter generation
+- Hyperscaler balance sheet risk
+- AI infrastructure demand
+episodeTitle: In Data Center Development, Real Access to Power is the Key Differentiator
 episodeUrl: https://coolvector.substack.com/p/in-data-center-development-real-access
-episodeDate: '2025-03-10'
+episodeDate: '2026-04-13'
