@@ -1,15 +1,22 @@
 name: Hadassa Lutz
 title: Partner
 firm: Cloud2Ground
-bio: Hadassa Lutz is a Partner at Cloud2Ground, a firm focused on digital infrastructure
-  development and advisory. She participated in the Cool Vector episode on Grain Management's
-  global expansion strategy alongside Ted Manvitz and other digital infrastructure
-  experts.
+bio: Hadassa Lutz is a Partner at Cloud2Ground, a digital infrastructure advisory
+  and investment firm. A veteran of the industry, she participated in a Cool Vector
+  conversation on international data center investing alongside Grain Management's
+  Ted Manvitz. Lutz raised a structural shift she sees reshaping site selection:
+  data centers once followed fiber, but now they follow power. She challenged operators
+  and investors to think about how AI-era infrastructure must be planned around power
+  availability first, with connectivity layered in — not the reverse. She also drew
+  on the example of Argentina's Patagonia region positioning itself as an AI hub
+  around early SMR nuclear technology, illustrating how energy availability is
+  becoming the global organizing principle for digital infrastructure investment.
 topics:
-- Digital infrastructure
-- Global expansion
-- Data center investment
-- Power access
+- Digital infrastructure investment advisory
+- Power-first site selection strategy
+- International data center markets
+- AI infrastructure planning
+- SMR and alternative energy for data centers
 episodeTitle: Grain Management is Going Global One Relationship at a Time
 episodeUrl: https://coolvector.substack.com/p/grain-management-is-going-global
 episodeDate: '2026-03-27'
