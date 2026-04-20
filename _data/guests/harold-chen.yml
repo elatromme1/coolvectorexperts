@@ -1,7 +1,8 @@
 name: Harold Chen
 title: Director, Commercial Real Estate
 firm: Fitch Ratings
-bio: Harold Chen is Director of Commercial Real Estate at Fitch Ratings, where his
+bio: >-
+  Harold Chen is Director of Commercial Real Estate at Fitch Ratings, where his
   team covers data center REITs including Equinix and Digital Realty Trust, both rated
   investment-grade. He explains how data center REITs differ from traditional real
   estate in their higher operational intensity, specialized infrastructure, and reliance
@@ -13,7 +14,7 @@ topics:
 - Equinix and Digital Realty
 - Investment-grade debt
 - Hyperscaler concentration
-- Esg in credit analysis
-episodeTitle: Equinix vs. Digital Realty: A Fitch Analyst Talks Data-Center REITs
+- ESG in credit analysis
+episodeTitle: "Equinix vs. Digital Realty: A Fitch Analyst Talks Data-Center REITs"
 episodeUrl: https://coolvector.substack.com/p/equinix-vs-digital-realty-a-fitch
 episodeDate: '2024-12-04'
