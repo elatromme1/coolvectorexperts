@@ -60,6 +60,26 @@ ABOUT_SECTION = """<div class="about-section">
   </div>
 </div>"""
 
+def get_photo_src(gid, g, for_index=False):
+    """Return the correct image src for a guest.
+    for_index=True  -> path relative to site root (images/...)
+    for_index=False -> path relative to guests/ dir  (../images/...)
+    """
+    headshot = g.get('headshot', '')
+    if headshot:
+        # CMS stores headshot as ../images/filename.ext (relative to guests/)
+        # Normalise to just the filename so we can rebuild the right prefix.
+        filename = headshot.split('/')[-1]
+        if for_index:
+            return f'images/{filename}'
+        else:
+            return f'../images/{filename}'
+    # Fallback to convention: gid.jpg
+    if for_index:
+        return f'images/{gid}.jpg'
+    else:
+        return f'../images/{gid}.jpg'
+
 def build_guest_page(gid, g):
     name = g.get('name', '')
     title = g.get('title', '')
@@ -75,6 +95,8 @@ def build_guest_page(gid, g):
 
     job_title = title.split(',')[0].split('&')[0].strip()
 
+    photo_src = get_photo_src(gid, g, for_index=False)
+
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +106,7 @@ def build_guest_page(gid, g):
   <meta name="description" content="{bio_short}">
   <meta property="og:title" content="{esc(name)} | Cool Vector">
   <meta property="og:description" content="{bio_short}">
-  <meta property="og:image" content="../images/{gid}.jpg">
+  <meta property="og:image" content="{photo_src}">
   <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -114,7 +136,7 @@ def build_guest_page(gid, g):
     <a class="back-link" href="../index.html">&larr; Back to all guests</a>
 
     <div class="guest-header">
-      <img class="guest-photo" src="../images/{gid}.jpg" alt="Photo of {esc(name)}" />
+      <img class="guest-photo" src="{photo_src}" alt="Photo of {esc(name)}" />
       <div class="guest-meta">
         <div class="podcast-label">Cool Vector Video-Podcast</div>
         <div class="podcast-tagline">{TAGLINE}</div>
@@ -166,8 +188,9 @@ def build_index(guests_list):
         title = g.get('title', '')
         firm = g.get('firm', '')
         search_data = build_search_data(g)
+        photo_src = get_photo_src(gid, g, for_index=True)
         cards.append(f"""    <a class="guest-card" href="guests/{gid}.html" data-search="{esc(search_data)}">
-      <img src="images/{gid}.jpg" alt="{esc(name)}" />
+      <img src="{photo_src}" alt="{esc(name)}" />
       <div class="card-info">
         <div class="card-name">{esc(name)}</div>
         <div class="card-title">{esc(title)}</div>
