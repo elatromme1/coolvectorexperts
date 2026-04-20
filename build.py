@@ -6,9 +6,9 @@ from pathlib import Path
 SITE_URL = "https://coolvectorexperts.netlify.app"
 TAGLINE = "Primary-source commentary about data centers and the digital infrastructure asset class"
 
-LOGO_HTML_GUEST = """    <div class="site-logo-wrap">
-      <a href="https://coolvector.substack.com/" target="_blank" rel="noopener">
-        <img src="../images/cool-vector-logo.png" alt="Cool Vector" class="site-logo" />
+LOGO_HTML_GUEST = """    <div class=\"site-logo-wrap\">
+      <a href=\"https://coolvector.substack.com/\" target=\"_blank\" rel=\"noopener\">
+        <img src=\"../images/cool-vector-logo.png\" alt=\"Cool Vector\" class=\"site-logo\" />
       </a>
     </div>"""
 
@@ -50,13 +50,13 @@ def capitalize_first(s):
     words[0] = words[0].capitalize()
     return ' '.join(words)
 
-ABOUT_SECTION = """<div class="about-section">
+ABOUT_SECTION = """<div class=\"about-section\">
   <h2>Welcome to Cool Vector!</h2>
   <h3>About Cool Vector</h3>
   <p>Cool Vector is a video-podcast about the rise of data centers and the digital infrastructure asset class. On a regular basis, the podcast convenes expert conversations about the investment opportunities and macro themes driving the build-out of digital infrastructure, including private capital dynamics, performance expectations, energy demand, geopolitical influences, sustainability opportunities, development and construction, technology and community impact.</p>
   <p>Cool Vector is hosted by financial journalist David Snow, a long-time chronicler of the alternative investment market, as well as editorial advisors Phillip Koblence and Nabeel Mahmood, data center industry veterans and co-founders of the Nomad Futurist Foundation.</p>
-  <div class="substack-embed-wrap">
-    <iframe src="https://coolvector.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class=\"substack-embed-wrap\">
+    <iframe src=\"https://coolvector.substack.com/embed\" width=\"480\" height=\"320\" style=\"border:1px solid #EEE; background:white;\" frameborder=\"0\" scrolling=\"no\"></iframe>
   </div>
 </div>"""
 
@@ -98,65 +98,65 @@ def build_guest_page(gid, g):
     photo_src = get_photo_src(gid, g, for_index=False)
 
     page = f"""<!DOCTYPE html>
-<html lang="en">
+<html lang=\"en\">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
   <title>{esc(name)} | Cool Vector Video-Podcast</title>
-  <meta name="description" content="{bio_short}">
-  <meta property="og:title" content="{esc(name)} | Cool Vector">
-  <meta property="og:description" content="{bio_short}">
-  <meta property="og:image" content="{photo_src}">
-  <script type="application/ld+json">
+  <meta name=\"description\" content=\"{bio_short}\">
+  <meta property=\"og:title\" content=\"{esc(name)} | Cool Vector\">
+  <meta property=\"og:description\" content=\"{bio_short}\">
+  <meta property=\"og:image\" content=\"{photo_src}\">
+  <script type=\"application/ld+json\">
 {{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "{name}",
-  "jobTitle": "{job_title}",
-  "worksFor": {{
-    "@type": "Organization",
-    "name": "{firm}"
+  \"@context\": \"https://schema.org\",
+  \"@type\": \"Person\",
+  \"name\": \"{name}\",
+  \"jobTitle\": \"{job_title}\",
+  \"worksFor\": {{
+    \"@type\": \"Organization\",
+    \"name\": \"{firm}\"
   }},
-  "description": {json_str(bio)},
-  "url": "{SITE_URL}/guests/{gid}.html",
-  "appearanceOn": {{
-    "@type": "PodcastEpisode",
-    "name": "{ep_title}",
-    "url": "{ep_url}"
+  \"description\": {json_str(bio)},
+  \"url\": \"{SITE_URL}/guests/{gid}.html\",
+  \"appearanceOn\": {{
+    \"@type\": \"PodcastEpisode\",
+    \"name\": \"{ep_title}\",
+    \"url\": \"{ep_url}\"
   }}
 }}
   </script>
-  <link rel="stylesheet" href="../style.css">
+  <link rel=\"stylesheet\" href=\"../style.css\">
 </head>
 <body>
-  <div class="site-wrapper">
+  <div class=\"site-wrapper\">
 
 {LOGO_HTML_GUEST}
 
-    <a class="back-link" href="../index.html">&larr; Back to all guests</a>
+    <a class=\"back-link\" href=\"../index.html\">&larr; Back to all guests</a>
 
-    <div class="guest-header">
-      <img class="guest-photo" src="{photo_src}" alt="Photo of {esc(name)}" />
-      <div class="guest-meta">
-        <div class="podcast-label">Cool Vector Video-Podcast</div>
-        <div class="podcast-tagline">{TAGLINE}</div>
-        <div class="guest-speaker-label">Guest Speaker</div>
-        <h1 class="guest-name">{esc(name)}</h1>
-        <div class="guest-title-firm">{esc(title)}, {esc(firm)}</div>
+    <div class=\"guest-header\">
+      <img class=\"guest-photo\" src=\"{photo_src}\" alt=\"Photo of {esc(name)}\" />
+      <div class=\"guest-meta\">
+        <div class=\"podcast-label\">Cool Vector Video-Podcast</div>
+        <div class=\"podcast-tagline\">{TAGLINE}</div>
+        <div class=\"guest-speaker-label\">Guest Speaker</div>
+        <h1 class=\"guest-name\">{esc(name)}</h1>
+        <div class=\"guest-title-firm\">{esc(title)}, {esc(firm)}</div>
 
         {bio_html}
 
-        <div class="topics-label">Topics covered on Cool Vector:</div>
-        <ul class="topics-list">
+        <div class=\"topics-label\">Topics covered on Cool Vector:</div>
+        <ul class=\"topics-list\">
 {topics_li}
         </ul>
 
-        <div class="episodes-label">Cool Vector episodes in which {esc(name.split()[0])} appears:</div>
-        <a class="episode-link" href="{esc(ep_url)}" target="_blank" rel="noopener">{esc(ep_title)}</a>
+        <div class=\"episodes-label\">Cool Vector episodes in which {esc(name.split()[0])} appears:</div>
+        <a class=\"episode-link\" href=\"{esc(ep_url)}\" target=\"_blank\" rel=\"noopener\">{esc(ep_title)}</a>
       </div>
     </div>
 
-    <a class="back-link-bottom" href="../index.html">&larr; Back to all guests</a>
+    <a class=\"back-link-bottom\" href=\"../index.html\">&larr; Back to all guests</a>
 
     {ABOUT_SECTION}
 
@@ -189,25 +189,25 @@ def build_index(guests_list):
         firm = g.get('firm', '')
         search_data = build_search_data(g)
         photo_src = get_photo_src(gid, g, for_index=True)
-        cards.append(f"""    <a class="guest-card" href="guests/{gid}.html" data-search="{esc(search_data)}">
-      <img src="{photo_src}" alt="{esc(name)}" />
-      <div class="card-info">
-        <div class="card-name">{esc(name)}</div>
-        <div class="card-title">{esc(title)}</div>
-        <div class="card-firm">{esc(firm)}</div>
+        cards.append(f"""    <a class=\"guest-card\" href=\"guests/{gid}.html\" data-search=\"{esc(search_data)}\">
+      <img src=\"{photo_src}\" alt=\"{esc(name)}\" />
+      <div class=\"card-info\">
+        <div class=\"card-name\">{esc(name)}</div>
+        <div class=\"card-title\">{esc(title)}</div>
+        <div class=\"card-firm\">{esc(firm)}</div>
       </div>
     </a>""")
 
     cards_html = '\n'.join(cards)
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang=\"en\">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
   <title>Cool Vector | Directory of Experts</title>
-  <meta name="description" content="Meet the experts who have appeared on Cool Vector, the video-podcast about data centers and digital infrastructure.">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <meta name=\"description\" content=\"Meet the experts who have appeared on Cool Vector, the video-podcast about data centers and digital infrastructure.\">
+  <link rel=\"stylesheet\" href=\"style.css\">
+  <script src=\"https://identity.netlify.com/v1/netlify-identity-widget.js\"></script>
   <script>
     if (window.location.hash && (window.location.hash.includes('invite_token') || window.location.hash.includes('recovery_token'))) {{
       window.location = '/admin/' + window.location.hash;
@@ -216,28 +216,28 @@ def build_index(guests_list):
 </head>
 <body>
 
-  <div class="hero-banner">
-    <a href="https://coolvector.substack.com/" target="_blank" rel="noopener" class="hero-link" aria-label="Visit Cool Vector on Substack"></a>
-    <img src="images/hero-bg.png" alt="Cool Vector - Directory of Experts. Primary-source commentary about data centers and the digital infrastructure asset class." class="hero-img" />
+  <div class=\"hero-banner\">
+    <a href=\"https://coolvector.substack.com/\" target=\"_blank\" rel=\"noopener\" class=\"hero-link\" aria-label=\"Visit Cool Vector on Substack\"></a>
+    <img src=\"images/hero-bg.png\" alt=\"Cool Vector - Directory of Experts. Primary-source commentary about data centers and the digital infrastructure asset class.\" class=\"hero-img\" />
   </div>
 
-  <div class="site-wrapper">
+  <div class=\"site-wrapper\">
 
-    <div class="search-wrap">
+    <div class=\"search-wrap\">
       <input
-        type="search"
-        id="guest-search"
-        class="guest-search"
-        placeholder="Search by name, firm, topic, keyword&hellip;"
-        autocomplete="off"
-        spellcheck="false"
+        type=\"search\"
+        id=\"guest-search\"
+        class=\"guest-search\"
+        placeholder=\"Search by name, firm, topic, keyword&hellip;\"
+        autocomplete=\"off\"
+        spellcheck=\"false\"
       />
     </div>
 
-    <div class="guest-grid" id="guest-grid">
+    <div class=\"guest-grid\" id=\"guest-grid\">
 {cards_html}
     </div>
-    <p id="no-results" class="no-results" style="display:none;">No guests match your search.</p>
+    <p id=\"no-results\" class=\"no-results\" style=\"display:none;\">No guests match your search.</p>
 
     {ABOUT_SECTION}
   </div>
