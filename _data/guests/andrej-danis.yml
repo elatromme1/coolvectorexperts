@@ -3,20 +3,22 @@ title: Partner and Managing Director, Digital Infrastructure
 firm: AlixPartners
 bio: Andrej Danis leads digital infrastructure advisory at AlixPartners, one of
   the world's largest management consulting firms. Interviewed by Cool Vector at
-  the 2026 PTC event in Honolulu, Danis described an industry moving from hype to
-  hard reckoning. 'If you get punched in the face, your plan is gone,' he said of
-  operators who believed their roadmaps were insulated from supply chain disruption
-  and delivery delays. He argued that power alone is no longer a differentiator —
-  how it is delivered, how resilient the supply is, and whether the surrounding
-  ecosystem can support long-term operations are the questions that sophisticated
-  investors are now asking. Danis is also watching for financial ROI on enterprise
-  AI adoption as the true signal that the buildout is creating lasting value.
+  the 2026 PTC event in Honolulu, Danis described an industry moving from hype
+  to hard reckoning. 'If you get punched in the face, your plan is gone,' he
+  said of operators who believed their roadmaps were insulated from supply chain
+  disruption and delivery delays. He argued that power alone is no longer a
+  differentiator — how it is delivered, how resilient the supply is, and whether
+  the surrounding ecosystem can support long-term operations are the questions
+  that sophisticated investors are now asking. Danis is also watching for
+  financial ROI on enterprise AI adoption as the true signal that the buildout
+  is creating lasting value.
 topics:
-- Data center operations consulting
-- Supply chain and delivery risk
-- AI inference and enterprise adoption
-- Power resilience and site quality
-- ABS and credit market structures
-episodeTitle: "It's Time for Data Center Operators to Deliver"
+  - Data center operations consulting
+  - Supply chain and delivery risk
+  - AI inference and enterprise adoption
+  - Power resilience and site quality
+  - ABS and credit market structures
+episodeTitle: It's Time for Data Center Operators to Deliver
 episodeUrl: https://coolvector.substack.com/p/its-time-for-data-center-operators
-episodeDate: '2026-04-13'
+episodeDate: 2026-04-13
+headshot: ../images/andrejdanis.png
