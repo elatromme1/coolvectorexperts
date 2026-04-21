@@ -1,16 +1,18 @@
 name: Bo Bond
 title: Vice Chair
 firm: Cushman & Wakefield
-bio: Bo Bond is Vice Chair at Cushman & Wakefield, specializing in digital infrastructure
-  real estate. He discussed the growing complexity and urgency of retrofitting existing
-  data centers to meet rising rack densities and AI compute requirements. Bond noted
-  that even newly built data centers can face obsolescence rapidly as technology evolves.
+bio: Bo Bond is Vice Chair at Cushman & Wakefield, specializing in digital
+  infrastructure real estate. He discussed the growing complexity and urgency of
+  retrofitting existing data centers to meet rising rack densities and AI
+  compute requirements. Bond noted that even newly built data centers can face
+  obsolescence rapidly as technology evolves.
 topics:
-- Data center retrofitting
-- Rack density
-- Real estate advisory
-- Digital infrastructure
-- Ai infrastructure upgrades
+  - Data center retrofitting
+  - Rack density
+  - Real estate advisory
+  - Digital infrastructure
+  - Ai infrastructure upgrades
 episodeTitle: Retrofitting Old Data Centers is Harder Than You Think
 episodeUrl: https://coolvector.substack.com/p/retrofitting-old-data-centers-is
-episodeDate: '2025-09-09'
+episodeDate: 2025-09-09
+headshot: /images/bo-bond.png
