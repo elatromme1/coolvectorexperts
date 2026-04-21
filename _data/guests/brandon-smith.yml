@@ -1,14 +1,22 @@
-name: "Brandon Smith"
-title: "VP of Global Sales and Product"
-firm: "ZincFive"
-bio: "Brandon Smith is VP of Global Sales and Product at ZincFive, a company specializing in nickel zinc battery solutions for mission-critical digital infrastructure. He is a leading voice on advances in battery technology, arguing that AI's uniquely volatile power demands have transformed batteries from a backup commodity into a core performance asset for data center design. Smith advocates for nickel zinc chemistry as a sustainable, recyclable alternative to lithium-ion, suited to the high-spike, high-cycle demands of AI compute environments."
+thumbnailUrl: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dbb1e20-dbcb-4aee-8c8f-b4280064bf2d_2186x1138.png
+name: Brandon Smith
+title: VP of Global Sales and Product
+firm: ZincFive
+bio: Brandon Smith is VP of Global Sales and Product at ZincFive, a company
+  specializing in nickel zinc battery solutions for mission-critical digital
+  infrastructure. He is a leading voice on advances in battery technology,
+  arguing that AI's uniquely volatile power demands have transformed batteries
+  from a backup commodity into a core performance asset for data center design.
+  Smith advocates for nickel zinc chemistry as a sustainable, recyclable
+  alternative to lithium-ion, suited to the high-spike, high-cycle demands of AI
+  compute environments.
 topics:
-  - "Battery technology advances in data centers"
-  - "Spikey AI compute and power demand"
-  - "Nickel zinc vs lithium-ion chemistry"
-  - "Data center sustainability and energy storage"
-  - "Battery supply chains and China's market dominance"
+  - Battery technology advances in data centers
+  - Spikey AI compute and power demand
+  - Nickel zinc vs lithium-ion chemistry
+  - Data center sustainability and energy storage
+  - Battery supply chains and China's market dominance
 episodeTitle: "'Spikey' AI Compute Calls for More and Better Batteries"
-episodeUrl: "https://coolvector.substack.com/p/spikey-ai-compute-calls-for-more"
-episodeDate: "2026-02-23"
-thumbnailUrl: "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8dbb1e20-dbcb-4aee-8c8f-b4280064bf2d_2186x1138.png"
+episodeUrl: https://coolvector.substack.com/p/spikey-ai-compute-calls-for-more
+episodeDate: 2026-02-23
+headshot: /images/brandon-smith.png
