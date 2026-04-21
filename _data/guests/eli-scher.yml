@@ -1,16 +1,17 @@
 name: Eli Scher
 title: Advisor
 firm: United Integrity Advisors
-bio: Eli Scher is an advisor at United Integrity Advisors with deep expertise in the
-  digital infrastructure sector. He participated in a Cool Vector discussion on the
-  'winner take most' dynamics shaping the hyperscaler battle and the implications
-  for data center developers and investors.
+bio: Eli Scher is an advisor at United Integrity Advisors with deep expertise in
+  the digital infrastructure sector. He participated in a Cool Vector discussion
+  on the 'winner take most' dynamics shaping the hyperscaler battle and the
+  implications for data center developers and investors.
 topics:
-- Hyperscaler strategy
-- Data center investment
-- Digital infrastructure advisory
-- Ai infrastructure
-- Market dynamics
+  - Hyperscaler strategy
+  - Data center investment
+  - Digital infrastructure advisory
+  - Ai infrastructure
+  - Market dynamics
 episodeTitle: Inside the 'Winner Take Most' Hyperscaler Battle
 episodeUrl: https://coolvector.substack.com/p/inside-the-winner-take-most-hyperscaler
-episodeDate: '2025-12-15'
+episodeDate: 2025-12-15
+headshot: /images/eli-scher.png
