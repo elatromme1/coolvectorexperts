@@ -1,19 +1,20 @@
 name: Doug Lane
 title: CFO & Managing Director
 firm: Global Compute Infrastructure
-bio: Doug Lane is CFO and Managing Director of Global Compute Infrastructure, a data
-  center investor launched in 2020 in partnership with Goldman Sachs by former Digital
-  Realty executives. The firm targets next-tier and emerging markets including Poland,
-  Bogota, and the Japanese island of Kyushu, where power surpluses and underserved
-  demand create attractive investment asymmetry. Lane sees a rare alignment of government
-  interests and economic incentives driving an unusually compelling opportunity in
-  the global data center market.
+bio: Doug Lane is CFO and Managing Director of Global Compute Infrastructure, a
+  data center investor launched in 2020 in partnership with Goldman Sachs by
+  former Digital Realty executives. The firm targets next-tier and emerging
+  markets including Poland, Bogota, and the Japanese island of Kyushu, where
+  power surpluses and underserved demand create attractive investment asymmetry.
+  Lane sees a rare alignment of government interests and economic incentives
+  driving an unusually compelling opportunity in the global data center market.
 topics:
-- Emerging market data centers
-- Global compute infrastructure
-- Power asymmetry
-- Goldman Sachs partnership
-- Next-tier markets
+  - Emerging market data centers
+  - Global compute infrastructure
+  - Power asymmetry
+  - Goldman Sachs partnership
+  - Next-tier markets
 episodeTitle: Data Center Demand and Power 'Asymetry' is a Global Opportunity
 episodeUrl: https://coolvector.substack.com/p/data-center-demand-and-power-asymetry-1f6
-episodeDate: '2026-03-17'
+episodeDate: 2026-03-17
+headshot: /images/doug-lane.png
