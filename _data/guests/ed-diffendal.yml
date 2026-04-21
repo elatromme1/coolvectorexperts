@@ -1,18 +1,20 @@
 name: Ed Diffendal
 title: Co-Head of Infrastructure Americas
 firm: Partners Group
-bio: Ed Diffendal is Co-Head of Infrastructure Americas at Partners Group, based in
-  Denver. He led the firm's $1.2 billion investment in EdgeCore Digital Infrastructure
-  in November 2022, just weeks before ChatGPT launched and dramatically accelerated
-  hyperscaler demand for data center capacity. The strong leasing response led Partners
-  Group to raise an additional $1.9 billion for EdgeCore in 2024, in a round that
-  was wildly oversubscribed by institutional co-investors.
+bio: Ed Diffendal is Co-Head of Infrastructure Americas at Partners Group, based
+  in Denver. He led the firm's $1.2 billion investment in EdgeCore Digital
+  Infrastructure in November 2022, just weeks before ChatGPT launched and
+  dramatically accelerated hyperscaler demand for data center capacity. The
+  strong leasing response led Partners Group to raise an additional $1.9 billion
+  for EdgeCore in 2024, in a round that was wildly oversubscribed by
+  institutional co-investors.
 topics:
-- EdgeCore Digital Infrastructure
-- Hyperscale data centers
-- Ai timing
-- Infrastructure private equity
-- Five-nines reliability
+  - EdgeCore Digital Infrastructure
+  - Hyperscale data centers
+  - Ai timing
+  - Infrastructure private equity
+  - Five-nines reliability
 episodeTitle: Partners Group Got the AI Timing Just Right
 episodeUrl: https://coolvector.substack.com/p/partners-group-got-the-ai-timing
-episodeDate: '2024-11-15'
+episodeDate: 2024-11-15
+headshot: /images/ed-diffendal.png
