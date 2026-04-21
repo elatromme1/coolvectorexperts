@@ -1,18 +1,20 @@
 name: Doug Recker
 title: President
 firm: Duos Edge AI
-bio: Doug Recker is President of Duos Edge AI, a company that supplies modular edge
-  data center 'pods' for deployment in remote and underserved areas. He has seen surprising
-  customer demand from cattle ranchers, dairy farmers, and school districts who need
-  proximate compute for AI and drone-based applications. Duos Edge pods cost roughly
-  $1 million per unit and can be installed in around four months.
+bio: Doug Recker is President of Duos Edge AI, a company that supplies modular
+  edge data center 'pods' for deployment in remote and underserved areas. He has
+  seen surprising customer demand from cattle ranchers, dairy farmers, and
+  school districts who need proximate compute for AI and drone-based
+  applications. Duos Edge pods cost roughly $1 million per unit and can be
+  installed in around four months.
 topics:
-- Edge data centers
-- Modular infrastructure
-- Agricultural technology
-- Ai compute
-- Rural infrastructure
-episodeTitle: From Schools to Cattle Ranchers, Demand for Edge Data Center 'Pods'
-  is Surging, Says Duos Edge AI
+  - Edge data centers
+  - Modular infrastructure
+  - Agricultural technology
+  - Ai compute
+  - Rural infrastructure
+episodeTitle: From Schools to Cattle Ranchers, Demand for Edge Data Center
+  'Pods' is Surging, Says Duos Edge AI
 episodeUrl: https://coolvector.substack.com/p/from-schools-to-cattle-ranchers-demand
-episodeDate: '2025-04-01'
+episodeDate: 2025-04-01
+headshot: /images/doug-recker.png
