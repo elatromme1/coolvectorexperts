@@ -2,18 +2,20 @@ name: Bill Long
 title: Chief Product and Strategy Officer
 firm: Zayo
 bio: Bill Long is the Chief Product and Strategy Officer at Zayo, the privately
-  held fiber network operator that was taken private in 2020. In a Cool Vector panel
-  with EQT and DigitalBridge, Long explained that Zayo's take-private was designed
-  to 'get through that J-curve' of network investment before hyperscale demand for
-  fiber exploded. He described fiber networks as easy to understand but hard to
-  permit — a constraint that gives established players like Zayo a durable competitive
-  advantage as the AI era drives demand for high-capacity, low-latency connectivity.
+  held fiber network operator that was taken private in 2020. In a Cool Vector
+  panel with EQT and DigitalBridge, Long explained that Zayo's take-private was
+  designed to 'get through that J-curve' of network investment before hyperscale
+  demand for fiber exploded. He described fiber networks as easy to understand
+  but hard to permit — a constraint that gives established players like Zayo a
+  durable competitive advantage as the AI era drives demand for high-capacity,
+  low-latency connectivity.
 topics:
-- Fiber network operations
-- Zayo take-private strategy
-- Permitting and infrastructure constraints
-- AI demand for connectivity
-- Fiber as digital infrastructure asset
-episodeTitle: "EQT, DigitalBridge and Zayo See 'Gargantuan' Upside in Fiber Networks"
+  - Fiber network operations
+  - Zayo take-private strategy
+  - Permitting and infrastructure constraints
+  - AI demand for connectivity
+  - Fiber as digital infrastructure asset
+episodeTitle: EQT, DigitalBridge and Zayo See 'Gargantuan' Upside in Fiber Networks
 episodeUrl: https://coolvector.substack.com
-episodeDate: '2025-09-01'
+episodeDate: 2025-09-01
+headshot: /images/bill-long.png
