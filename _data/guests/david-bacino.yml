@@ -1,16 +1,18 @@
 name: David Bacino
 title: CEO
 firm: Symphony Towers
-bio: David Bacino is CEO of Symphony Towers, an independent wireless tower operator.
-  He participates in discussions on how the tower infrastructure business has shifted
-  from carrier-owned 'tower farms' to independent infrastructure providers, enabling
-  mobile operators to redirect capital toward network innovation.
+bio: David Bacino is CEO of Symphony Towers, an independent wireless tower
+  operator. He participates in discussions on how the tower infrastructure
+  business has shifted from carrier-owned 'tower farms' to independent
+  infrastructure providers, enabling mobile operators to redirect capital toward
+  network innovation.
 topics:
-- Wireless towers
-- Tower infrastructure
-- Digital infrastructure
-- Mobile network operators
-- Collocation
+  - Wireless towers
+  - Tower infrastructure
+  - Digital infrastructure
+  - Mobile network operators
+  - Collocation
 episodeTitle: Tower Infrastructure Keeps Adding 'Gizmo' Revenue
 episodeUrl: https://coolvector.substack.com/p/tower-infrastructure-keeps-adding
-episodeDate: '2026-01-07'
+episodeDate: 2026-01-07
+headshot: /images/david-bacino.png
