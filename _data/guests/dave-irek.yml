@@ -1,13 +1,21 @@
-name: "Dave Irek"
-title: "Chief Operating Officer"
-firm: "Duos Edge AI"
-bio: "Dave Irek is Chief Operating Officer of Duos Edge AI, an edge data center provider that owns, builds, and operates modular facilities in underserved markets across the United States. He observes a dramatic surge in demand for edge compute, noting that interest has exploded in just the past nine months and now drives roughly a third of industry conversations at major events like Supercompute. Irek came from the transport industry and brings operational expertise to the company's differentiated model of retaining ownership and operations of its edge facilities."
+thumbnailUrl: https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87e4631e-3850-4666-8819-b5e4b20d5e48_2438x1202.png
+name: Dave Irek
+title: Chief Operating Officer
+firm: Duos Edge AI
+bio: Dave Irek is Chief Operating Officer of Duos Edge AI, an edge data center
+  provider that owns, builds, and operates modular facilities in underserved
+  markets across the United States. He observes a dramatic surge in demand for
+  edge compute, noting that interest has exploded in just the past nine months
+  and now drives roughly a third of industry conversations at major events like
+  Supercompute. Irek came from the transport industry and brings operational
+  expertise to the company's differentiated model of retaining ownership and
+  operations of its edge facilities.
 topics:
-  - "Edge compute demand growth"
-  - "Modular data center infrastructure"
-  - "Tier-three and rural market opportunities"
-  - "Own-build-operate model for edge facilities"
-episodeTitle: "Interest in edge compute 'has exploded'"
-episodeUrl: "https://coolvector.substack.com/p/interest-in-edge-compute-has-exploded"
-episodeDate: "2026-03-22"
-thumbnailUrl: "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87e4631e-3850-4666-8819-b5e4b20d5e48_2438x1202.png"
+  - Edge compute demand growth
+  - Modular data center infrastructure
+  - Tier-three and rural market opportunities
+  - Own-build-operate model for edge facilities
+episodeTitle: Interest in edge compute 'has exploded'
+episodeUrl: https://coolvector.substack.com/p/interest-in-edge-compute-has-exploded
+episodeDate: 2026-03-22
+headshot: /images/dave-irek.png
