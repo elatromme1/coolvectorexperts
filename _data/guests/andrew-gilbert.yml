@@ -1,18 +1,20 @@
 name: Andrew Gilbert
 title: Managing Director
 firm: Energy Capital Partners (ECP)
-bio: Andrew Gilbert is a Managing Director at Energy Capital Partners (ECP), one of
-  the most dominant energy players in the global data center market. ECP became a
-  sought-after power-infrastructure partner for data centers by financing and operating
-  generation platforms that underpin hyperscale and enterprise compute. Gilbert notes
-  that power interconnection queues are 'overstated' due to the common strategy of
-  filing multiple proposals simultaneously.
+bio: Andrew Gilbert is a Managing Director at Energy Capital Partners (ECP), one
+  of the most dominant energy players in the global data center market. ECP
+  became a sought-after power-infrastructure partner for data centers by
+  financing and operating generation platforms that underpin hyperscale and
+  enterprise compute. Gilbert notes that power interconnection queues are
+  'overstated' due to the common strategy of filing multiple proposals
+  simultaneously.
 topics:
-- Power infrastructure
-- Energy capital
-- Data center power
-- Grid interconnection
-- Power plant investment
+  - Power infrastructure
+  - Energy capital
+  - Data center power
+  - Grid interconnection
+  - Power plant investment
 episodeTitle: ECP Was Buying Power Plants When They Were Out of Style
 episodeUrl: https://coolvector.substack.com/p/ecp-was-buying-power-plants-when
-episodeDate: '2025-11-03'
+episodeDate: 2025-11-03
+headshot: /images/andrew-gilbert.png
