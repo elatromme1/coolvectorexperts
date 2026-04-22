@@ -3,19 +3,21 @@ title: Chief Financial Officer
 firm: Sabey Data Centers
 bio: John Wilson is the CFO of Sabey Data Centers, one of the largest privately
   held data center operators in the United States. In his Cool Vector interview,
-  Wilson described how the complexity of the data center supply chain has expanded
-  dramatically — operators must now track not just their own procurement of servers,
-  racks, and labor, but the supply chain of their utility providers. 'We have to
-  think about not just how do we secure the supply of labor to build our data centers,
-  but at the very front end of that, we have to do more and more work with the utilities,
-  to think about their supply of electricity into our data centers and the supply
-  chain that they're navigating,' he told Cool Vector.
+  Wilson described how the complexity of the data center supply chain has
+  expanded dramatically — operators must now track not just their own
+  procurement of servers, racks, and labor, but the supply chain of their
+  utility providers. 'We have to think about not just how do we secure the
+  supply of labor to build our data centers, but at the very front end of that,
+  we have to do more and more work with the utilities, to think about their
+  supply of electricity into our data centers and the supply chain that they're
+  navigating,' he told Cool Vector.
 topics:
-- Data center supply chain complexity
-- CFO perspective on infrastructure
-- Utility and power procurement
-- Sabey Data Centers operations
-- Labor and equipment constraints
-episodeTitle: "The Global Supply Chain for Data Centers is More Complicated Than You Think"
+  - Data center supply chain complexity
+  - CFO perspective on infrastructure
+  - Utility and power procurement
+  - Sabey Data Centers operations
+  - Labor and equipment constraints
+episodeTitle: The Global Supply Chain for Data Centers is More Complicated Than You Think
 episodeUrl: https://coolvector.substack.com/p/now-data-centers-are-worrying-about
-episodeDate: '2025-05-01'
+episodeDate: 2025-05-01
+headshot: /images/john-wilson.png
