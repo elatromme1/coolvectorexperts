@@ -1,16 +1,18 @@
 name: Jeff Eaton
 title: Partner
 firm: Five Point Infrastructure
-bio: Jeff Eaton is a Partner at Five Point Infrastructure, a firm focused on digital
-  and energy infrastructure investment. He examines how the history of real estate's
-  institutional acceptance can inform the future trajectory of digital infrastructure
-  as an asset class for institutional investors including US pension funds.
+bio: Jeff Eaton is a Partner at Five Point Infrastructure, a firm focused on
+  digital and energy infrastructure investment. He examines how the history of
+  real estate's institutional acceptance can inform the future trajectory of
+  digital infrastructure as an asset class for institutional investors including
+  US pension funds.
 topics:
-- Infrastructure investment
-- Data center asset class
-- Institutional capital
-- Digital infrastructure
-- Real estate parallels
+  - Infrastructure investment
+  - Data center asset class
+  - Institutional capital
+  - Digital infrastructure
+  - Real estate parallels
 episodeTitle: Like Data Centers, Real Estate Once was Absent From Institutional Portfolios
 episodeUrl: https://coolvector.substack.com/p/like-data-centers-real-estate-once
-episodeDate: '2025-11-10'
+episodeDate: 2025-11-10
+headshot: /images/jeff-eaton.png
