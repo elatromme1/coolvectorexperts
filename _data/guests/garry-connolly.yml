@@ -1,17 +1,19 @@
 name: Garry Connolly
 title: Founder
 firm: Digital Infrastructure Ireland
-bio: Garry Connolly is the founder of Digital Infrastructure Ireland, an industry
-  advocacy organization. He argues that high power consumption by data centers is
-  evidence of economic growth rather than a burden, noting that 'to make data, you
-  need electricity.' Connolly advocates for a new era of data center growth in Ireland
-  that balances grid capacity with the country's ambitious renewable energy targets.
+bio: Garry Connolly is the founder of Digital Infrastructure Ireland, an
+  industry advocacy organization. He argues that high power consumption by data
+  centers is evidence of economic growth rather than a burden, noting that 'to
+  make data, you need electricity.' Connolly advocates for a new era of data
+  center growth in Ireland that balances grid capacity with the country's
+  ambitious renewable energy targets.
 topics:
-- Irish data center industry
-- Energy policy
-- Digital infrastructure advocacy
-- Renewable energy
-- Grid capacity
+  - Irish data center industry
+  - Energy policy
+  - Digital infrastructure advocacy
+  - Renewable energy
+  - Grid capacity
 episodeTitle: Ireland's successes include Guinness, Viagra and power-hungry data centers
 episodeUrl: https://coolvector.substack.com/p/irelands-successes-include-guinness
-episodeDate: '2025-08-07'
+episodeDate: 2025-08-07
+headshot: /images/garry-connolly.png
