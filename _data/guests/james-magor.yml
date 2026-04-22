@@ -1,16 +1,18 @@
 name: James Magor
 title: Director
 firm: Actis
-bio: James Magor is a Director at Actis working on digital infrastructure investments
-  across global emerging markets. He emphasizes the importance of resilience and sustainable
-  energy in data center development, and discusses Actis' investment in Epoch Digital
-  and its data center buildout in markets including South Korea, Malaysia, and Taiwan.
+bio: James Magor is a Director at Actis working on digital infrastructure
+  investments across global emerging markets. He emphasizes the importance of
+  resilience and sustainable energy in data center development, and discusses
+  Actis' investment in Epoch Digital and its data center buildout in markets
+  including South Korea, Malaysia, and Taiwan.
 topics:
-- Data center resilience
-- Emerging markets
-- Asia-pacific infrastructure
-- Sustainable development
-- Data center investment
+  - Data center resilience
+  - Emerging markets
+  - Asia-pacific infrastructure
+  - Sustainable development
+  - Data center investment
 episodeTitle: Actis' Sustainable Strategy in Digital Infrastructure
 episodeUrl: https://coolvector.substack.com/p/actis-sustainable-strategy-in-digital
-episodeDate: '2024-12-16'
+episodeDate: 2024-12-16
+headshot: /images/james-magor.png
