@@ -1,19 +1,22 @@
 name: Gary Watson
 title: Country Manager and Director
 firm: Keppel (Infrastructure Division) DC REIT Ireland
-bio: Gary Watson leads Keppel's data center REIT operations in Ireland, one of Europe's
-  most significant digital infrastructure markets. He participated in a wide-ranging
-  Cool Vector panel on Ireland's data center industry, which examined how the country
-  balances its position as a leading hub for hyperscaler investment against growing
-  public and regulatory scrutiny over energy consumption and grid constraints. Watson
-  brings the perspective of an international REIT operator navigating Ireland's distinctive
-  mix of renewable energy ambition, power scarcity, and political pressure.
+bio: Gary Watson leads Keppel's data center REIT operations in Ireland, one of
+  Europe's most significant digital infrastructure markets. He participated in a
+  wide-ranging Cool Vector panel on Ireland's data center industry, which
+  examined how the country balances its position as a leading hub for
+  hyperscaler investment against growing public and regulatory scrutiny over
+  energy consumption and grid constraints. Watson brings the perspective of an
+  international REIT operator navigating Ireland's distinctive mix of renewable
+  energy ambition, power scarcity, and political pressure.
 topics:
-- Irish data center market
-- Data center REIT operations
-- European digital infrastructure
-- Grid constraints and energy policy
-- Hyperscaler colocation
-episodeTitle: "Constrained by Grid and Politics, Ireland Looks for a New Era of Data Center Growth"
+  - Irish data center market
+  - Data center REIT operations
+  - European digital infrastructure
+  - Grid constraints and energy policy
+  - Hyperscaler colocation
+episodeTitle: Constrained by Grid and Politics, Ireland Looks for a New Era of
+  Data Center Growth
 episodeUrl: https://coolvector.substack.com/p/irelands-successes-include-guinness
-episodeDate: '2025-08-07'
+episodeDate: 2025-08-07
+headshot: /images/gary-watson.png
