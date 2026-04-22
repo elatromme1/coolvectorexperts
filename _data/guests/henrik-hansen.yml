@@ -1,17 +1,18 @@
 name: Henrik Hansen
 title: CEO
 firm: Danish Datacenter Industrien
-bio: Henrik Hansen is CEO of Danish Datacenter Industrien, the Danish data center
-  industry association. He advocates for Denmark's data center sector in discussions
-  about the country's winning formula for sustainable data centers, including its
-  use of renewable energy, collaboration with regulators, and reputation for sustainable
-  compute infrastructure.
+bio: Henrik Hansen is CEO of Danish Datacenter Industrien, the Danish data
+  center industry association. He advocates for Denmark's data center sector in
+  discussions about the country's winning formula for sustainable data centers,
+  including its use of renewable energy, collaboration with regulators, and
+  reputation for sustainable compute infrastructure.
 topics:
-- Danish data center industry
-- Industry advocacy
-- Sustainability
-- Renewable energy policy
-- Nordic digital infrastructure
+  - Danish data center industry
+  - Industry advocacy
+  - Sustainability
+  - Renewable energy policy
+  - Nordic digital infrastructure
 episodeTitle: Denmark's Winning Formula for Sustainable Data Centers
 episodeUrl: https://coolvector.substack.com/p/denmarks-winning-formula-for-sustainable
-episodeDate: '2025-03-25'
+episodeDate: 2025-03-25
+headshot: /images/henrik-hansen.png
