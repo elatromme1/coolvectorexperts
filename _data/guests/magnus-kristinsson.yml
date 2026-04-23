@@ -1,16 +1,18 @@
 name: Magnus Kristinsson
 title: CEO
 firm: atNorth
-bio: Magnus Kristinsson is CEO of atNorth, a Nordic data center operator. He participated
-  in a roundtable discussion on Denmark's leadership in sustainable data center development,
-  sharing insights on how Denmark's ambitious climate goals and collaborative approach
-  have made it a model for sustainable compute infrastructure across the Nordics.
+bio: Magnus Kristinsson is CEO of atNorth, a Nordic data center operator. He
+  participated in a roundtable discussion on Denmark's leadership in sustainable
+  data center development, sharing insights on how Denmark's ambitious climate
+  goals and collaborative approach have made it a model for sustainable compute
+  infrastructure across the Nordics.
 topics:
-- Nordic data centers
-- Sustainable compute
-- Renewable energy
-- Data center operations
-- Nordic infrastructure
+  - Nordic data centers
+  - Sustainable compute
+  - Renewable energy
+  - Data center operations
+  - Nordic infrastructure
 episodeTitle: Denmark's Winning Formula for Sustainable Data Centers
 episodeUrl: https://coolvector.substack.com/p/denmarks-winning-formula-for-sustainable
-episodeDate: '2025-03-25'
+episodeDate: 2025-03-25
+headshot: /images/magnus-kristinsson.png
