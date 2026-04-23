@@ -1,20 +1,22 @@
 name: Philbert Shih
 title: Founder
 firm: Structure Research
-bio: Philbert Shih is the founder of Structure Research, a leading independent research
-  and advisory firm focused on the data center and digital infrastructure industry.
-  He participated in a Cool Vector panel on the global supply chain challenges facing
-  data center operators, bringing an analyst's perspective on how cascading dependencies
-  — from transformers and switchgear to fiber and labor — are creating new risks
-  for operators trying to deliver capacity at the pace that hyperscalers and AI
-  companies demand. Structure Research is widely cited by investors and operators
-  for its rigorous market data and forecasts.
+bio: Philbert Shih is the founder of Structure Research, a leading independent
+  research and advisory firm focused on the data center and digital
+  infrastructure industry. He participated in a Cool Vector panel on the global
+  supply chain challenges facing data center operators, bringing an analyst's
+  perspective on how cascading dependencies — from transformers and switchgear
+  to fiber and labor — are creating new risks for operators trying to deliver
+  capacity at the pace that hyperscalers and AI companies demand. Structure
+  Research is widely cited by investors and operators for its rigorous market
+  data and forecasts.
 topics:
-- Data center market research
-- Global supply chain analysis
-- Digital infrastructure trends
-- Hyperscale demand forecasting
-- Independent analyst perspective
-episodeTitle: "The Global Supply Chain for Data Centers is More Complicated Than You Think"
+  - Data center market research
+  - Global supply chain analysis
+  - Digital infrastructure trends
+  - Hyperscale demand forecasting
+  - Independent analyst perspective
+episodeTitle: The Global Supply Chain for Data Centers is More Complicated Than You Think
 episodeUrl: https://coolvector.substack.com/p/so-many-dependencies-can-delay-a
-episodeDate: '2025-05-01'
+episodeDate: 2025-05-01
+headshot: /images/philbert-shih.png
