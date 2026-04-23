@@ -1,17 +1,19 @@
 name: Raj Vohra
 title: Head of Data Center Acquisitions
 firm: Thor Equities
-bio: Raj Vohra leads data center acquisitions at Thor Equities, a $20 billion AUM
-  investment firm known for its real estate track record. He previously led data center
-  acquisitions across North America at Google, where he learned that the world is
-  'just scratching the surface' of compute capacity needs. Vohra is targeting growth
-  markets for data centers rather than established, crowded hubs.
+bio: Raj Vohra leads data center acquisitions at Thor Equities, a $20 billion
+  AUM investment firm known for its real estate track record. He previously led
+  data center acquisitions across North America at Google, where he learned that
+  the world is 'just scratching the surface' of compute capacity needs. Vohra is
+  targeting growth markets for data centers rather than established, crowded
+  hubs.
 topics:
-- Data center acquisitions
-- Hyperscaler strategy
-- Real estate to data center transition
-- Compute capacity
-- Growth markets
+  - Data center acquisitions
+  - Hyperscaler strategy
+  - Real estate to data center transition
+  - Compute capacity
+  - Growth markets
 episodeTitle: Thor Equities' New Data Center Head Learned a Lot at Google
 episodeUrl: https://coolvector.substack.com/p/thor-equities-new-data-center-head
-episodeDate: '2025-10-13'
+episodeDate: 2025-10-13
+headshot: /images/raj-vohra.png
