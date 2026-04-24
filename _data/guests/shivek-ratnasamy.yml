@@ -1,18 +1,19 @@
 name: Shivek Ratnasamy
 title: Director
 firm: RBC Capital Markets
-bio: Shivek Ratnasamy is a Director at RBC Capital Markets who analyzes data center
-  monetization structures. He identified an emerging financial mechanism whereby data
-  center operators 'ring-fence' their mature, stabilized data centers to monetize
-  them while continuing to develop new facilities. Ratnasamy advises investors to
-  insist on incentive terms that encourage operators to maximize renewal of existing
-  data center leases.
+bio: Shivek Ratnasamy is a Director at RBC Capital Markets who analyzes data
+  center monetization structures. He identified an emerging financial mechanism
+  whereby data center operators 'ring-fence' their mature, stabilized data
+  centers to monetize them while continuing to develop new facilities. Ratnasamy
+  advises investors to insist on incentive terms that encourage operators to
+  maximize renewal of existing data center leases.
 topics:
-- Data center monetization
-- Ring-fencing
-- Stabilized assets
-- Legacy data centers
-- Investment structures
+  - Data center monetization
+  - Ring-fencing
+  - Stabilized assets
+  - Legacy data centers
+  - Investment structures
 episodeTitle: What if data center developers steer customers away from older sites?
 episodeUrl: https://coolvector.substack.com/p/what-if-data-center-developers-steer
-episodeDate: '2025-05-22'
+episodeDate: 2025-05-22
+headshot: /images/surajit-chatterjee.png
