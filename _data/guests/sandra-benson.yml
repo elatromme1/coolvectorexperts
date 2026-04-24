@@ -1,21 +1,22 @@
 name: Sandra Benson
 title: Vice President of Industry Transformation
 firm: Procore Technologies
-bio: Sandra Benson is a veteran of large-scale construction and engineering, having
-  served as Worldwide Head of Engineering, Construction and Real Estate at Amazon
-  Web Services before joining Procore Technologies. In her Cool Vector interview,
-  Benson describes a data center construction industry racing against itself — demand
-  is surging but a deep shortage of skilled trade labor is the binding constraint.
-  'We literally can't build fast enough,' she says. 'The biggest reason we can't is
-  we don't have the labor.' She also challenges the perception that construction is
-  a backwards industry, arguing that the sector is far more digital and technically
-  sophisticated than most outsiders realize.
+bio: Sandra Benson is a veteran of large-scale construction and engineering,
+  having served as Worldwide Head of Engineering, Construction and Real Estate
+  at Amazon Web Services before joining Procore Technologies. In her Cool Vector
+  interview, Benson describes a data center construction industry racing against
+  itself — demand is surging but a deep shortage of skilled trade labor is the
+  binding constraint. 'We literally can't build fast enough,' she says. 'The
+  biggest reason we can't is we don't have the labor.' She also challenges the
+  perception that construction is a backwards industry, arguing that the sector
+  is far more digital and technically sophisticated than most outsiders realize.
 topics:
-- Data center construction labor shortage
-- Skilled trades and workforce development
-- Construction technology and digitalization
-- Sustainability in data center builds
-- Commissioning and contractor coordination
+  - Data center construction labor shortage
+  - Skilled trades and workforce development
+  - Construction technology and digitalization
+  - Sustainability in data center builds
+  - Commissioning and contractor coordination
 episodeTitle: Labor Shortage is Bad for Data Centers, Good for Construction Salaries
 episodeUrl: https://coolvector.substack.com/p/labor-shortage-is-bad-for-data-centers-410
-episodeDate: '2025-02-06'
+episodeDate: 2025-02-06
+headshot: /images/sandra-benson.png
