@@ -1,17 +1,19 @@
 name: Thomas Liu
 title: Partner
 firm: Actis
-bio: Thomas Liu is a Partner at Actis, a private equity firm with 17 global offices
-  and deep expertise in emerging market digital infrastructure. He leads data center
-  development initiatives across global growth markets, including investments such
-  as Epoch Digital, a diversified data center platform with developments in South
-  Korea, Malaysia, and Taiwan, while adhering to strict sustainability standards.
+bio: Thomas Liu is a Partner at Actis, a private equity firm with 17 global
+  offices and deep expertise in emerging market digital infrastructure. He leads
+  data center development initiatives across global growth markets, including
+  investments such as Epoch Digital, a diversified data center platform with
+  developments in South Korea, Malaysia, and Taiwan, while adhering to strict
+  sustainability standards.
 topics:
-- Emerging market data centers
-- Asia-pacific digital infrastructure
-- Sustainable data centers
-- Private equity
-- Global growth markets
+  - Emerging market data centers
+  - Asia-pacific digital infrastructure
+  - Sustainable data centers
+  - Private equity
+  - Global growth markets
 episodeTitle: Actis' Sustainable Strategy in Digital Infrastructure
 episodeUrl: https://coolvector.substack.com/p/actis-sustainable-strategy-in-digital
-episodeDate: '2024-12-16'
+episodeDate: 2024-12-16
+headshot: /images/thomas-liu.png
