@@ -1,19 +1,21 @@
 name: Zahl Limbuwala
 title: Operating Partner
 firm: DTCP
-bio: Zahl Limbuwala is an Operating Partner at DTCP, a mid-cap private equity fund
-  manager headquartered in Germany with offices in Frankfurt and London, and €1.8
-  billion in AUM investing in data centers, mobile towers, and fiber networks. With
-  30 years in the digital infrastructure industry, he sees Europe as digitally under-penetrated
-  with a long runway for growth, and cautions that the AI gigafactory wave seen in
-  the US has yet to meaningfully arrive in Europe, where energy costs and political
-  complexity create a more cautious investment environment.
+bio: Zahl Limbuwala is an Operating Partner at DTCP, a mid-cap private equity
+  fund manager headquartered in Germany with offices in Frankfurt and London,
+  and €1.8 billion in AUM investing in data centers, mobile towers, and fiber
+  networks. With 30 years in the digital infrastructure industry, he sees Europe
+  as digitally under-penetrated with a long runway for growth, and cautions that
+  the AI gigafactory wave seen in the US has yet to meaningfully arrive in
+  Europe, where energy costs and political complexity create a more cautious
+  investment environment.
 topics:
-- European digital infrastructure
-- Mid-market private equity
-- Data center value creation
-- Ai in Europe
-- Capital efficiency
+  - European digital infrastructure
+  - Mid-market private equity
+  - Data center value creation
+  - Ai in Europe
+  - Capital efficiency
 episodeTitle: Europe is 'Watching the US,' but Cautious on 'AI Gigafactories'
 episodeUrl: https://coolvector.substack.com/p/europe-is-watching-the-us-but-cautious-b23
-episodeDate: '2026-03-26'
+episodeDate: 2026-03-26
+headshot: /images/zahl-limbuwala.png
